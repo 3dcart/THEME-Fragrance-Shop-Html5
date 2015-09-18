@@ -50,7 +50,13 @@
       <a href="view_cart.asp" id="mobileCart" class="show-mobile"><i class="icon-basket"></i></a>
       <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="showSlideMenu">
         <a id="closeSlideMenu" class="show-mobile"><i class="icon-cancel-circled"></i></a>
-        
+               <div class="mob-search m-search show-mobile">
+                <form method="get" name="mSearchForm" action="search.asp">
+                  <input type="text" name="keyword" value="" placeholder="[frame_search]" />
+                  <button name="search"><i class="icon-search"></i></button>
+                  <div class="clear"></div>
+                </form>
+              </div>
         <!--START: FRAME_CATEGORY-->
         <ul id="desktopMenu">
         <!--START: CATEGORIES-->
@@ -69,7 +75,7 @@
         <!--END: FRAME_CATEGORY-->
         
         <ul class="second-menu">
-          <li class="m-search show-mobile">
+          <li class="m-search hide-mobile">
               <div>
                 <form method="get" name="mSearchForm" action="search.asp">
                   <input type="text" name="keyword" value="" placeholder="[frame_search]" />

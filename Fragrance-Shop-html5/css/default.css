@@ -1016,6 +1016,9 @@ li.m-search {
 	 height:100%;
 	line-height:normal !important;
 }
+.mob-search{
+	display:none;
+}
 #searchBox input {
 	border: medium none;
     border-radius: 0;
@@ -1879,7 +1882,20 @@ body {
 .top-menu {
     height: 50px;
 }
-
+.mob-search{
+	display:block !important;
+}
+.cbp-spmenu-left.cbp-spmenu-open{
+	overflow:scroll;
+}
+.top-menu .second-menu{
+	width:100%;
+	height:auto;
+	overflow:scroll;
+}
+.hide-mobile{
+	display:none !important;
+}
 .top-menu ul {
     float: none;
 	background:#333;
